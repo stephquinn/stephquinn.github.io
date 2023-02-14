@@ -1,33 +1,43 @@
-header{
-    text-align: center;
-}
-header h1{
-    text-align: left;
-}
-
-h1,
-h2,
-h3{
-    font-family: Georgia, serif;
-    font-weight: 400;
-}
-
-h1{
-    color:#62404D;
-}
-
-h2{
-    color:#69413A;
-}
-
-h3{
-    color:#A70305;
-}
-
-img{
-    max-width: 65%;
-}
-
-body{
+body {
     font-size: 16px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 350;
+    margin: 1em 2em;
+}
+.logo {
+    max-width: 60%;
+}
+header {
+    font-style: italic;
+}
+.special {
+    font-style: italic;
+    background-color: #B394A5;
+    padding: .2em 1em;
+}
+h1,
+h2 {
+    font-family: Georgia, serif;
+    font-weight: 200;
+    margin:0%;
+}
+h1 {
+    color: #FA3E3B;
+    font-style:normal;
+}
+h2 {
+    color: #69413A;
+}
+h3 {
+    color: #A70305;
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+    margin:0%;
+}
+img {
+    max-width: 65%;
+    margin:1em 0em;
+}
+footer {
+    color: #69413A;
 }
