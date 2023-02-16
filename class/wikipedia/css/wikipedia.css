@@ -3,6 +3,7 @@ body {
     font-family: Helvetica, sans-serif;
     font-weight: 350;
     margin: 1em 2em;
+    background-color: #FAEDCF;
 }
 .logo {
     max-width: 50%;
@@ -14,26 +15,27 @@ header {
     background-color: #B394A5;
     padding: .2em 1em;
     margin: 1em 0em;
-    border:1px solid black;
+    border: 1px solid black;
 }
-.intro_image img{
-    max-width: 45%;
-    margin:.5em 0em 1em 1em;
-    float:right;
+.intro_image img {
+    max-width: 40%;
+    margin: 1em;
+    float: right;
 }
-.baby_gemsbok_photo{
-    max-width: 45%;
-    float:left
+.baby_gemsbok_image img {
+    max-width: 35%;
+    margin: .5em 1em 1em 0em;
+    float: left;
 }
 h1,
 h2 {
     font-family: Georgia, serif;
     font-weight: 200;
-    margin:0%;
+    margin: 0%;
 }
 h1 {
     color: #EE3E1B;
-    font-style:normal;
+    font-style: normal;
 }
 h2 {
     color: #69413A;
@@ -42,11 +44,11 @@ h3 {
     color: #A70305;
     font-family: Helvetica, sans-serif;
     font-weight: 700;
-    margin:0%;
+    margin: 0%;
 }
 img {
     max-width: 65%;
-    margin:1em 0em;
+    margin: 1em 0em;
 }
 footer {
     color: #69413A;
