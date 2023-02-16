@@ -5,8 +5,8 @@ body {
     margin: 1em 2em;
     background-color: #FAEDCF;
 }
-.logo {
-    max-width: 50%;
+.logo img{
+    max-width:40%;
 }
 header {
     font-style: italic;
@@ -45,10 +45,6 @@ h3 {
     font-family: Helvetica, sans-serif;
     font-weight: 700;
     margin: 0%;
-}
-img {
-    max-width: 65%;
-    margin: 1em 0em;
 }
 footer {
     color: #69413A;
