@@ -5,6 +5,25 @@ body {
     margin: 1em 2em;
     background-color: #FAEDCF;
 }
+h1,
+h2 {
+    font-family: Georgia, serif;
+    font-weight: 200;
+    margin: 0%;
+}
+h1 {
+    color: #EE3E1B;
+    font-style: normal;
+}
+h2 {
+    color: #69413A;
+}
+h3 {
+    color: #A70305;
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+    margin: 0%;
+}
 .logo img{
     max-width:40%;
 }
@@ -26,25 +45,6 @@ header {
     max-width: 35%;
     margin: .5em 1em 1em 0em;
     float: left;
-}
-h1,
-h2 {
-    font-family: Georgia, serif;
-    font-weight: 200;
-    margin: 0%;
-}
-h1 {
-    color: #EE3E1B;
-    font-style: normal;
-}
-h2 {
-    color: #69413A;
-}
-h3 {
-    color: #A70305;
-    font-family: Helvetica, sans-serif;
-    font-weight: 700;
-    margin: 0%;
 }
 footer {
     color: #69413A;
