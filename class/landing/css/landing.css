@@ -1,13 +1,21 @@
 body {
-    font-size: 16px;
+    font: size 16px;
+    background-color: #242124;
 }
 
 h1 {
     font-family: 'Tilt Prism', cursive;
-    font-size:6em;
+    font-size:8em;
+    color:#FF5400;
+    margin-top:50px;
+    line-height:.75em;
 }
+
 
 h2 {
     font-family: 'Tilt Neon', cursive;
-    font-size:3em;
+    font-size:5em;
+    color: #ED00BD;
+    margin: 20px 0px;
+    line-height:0.75em;
 }
