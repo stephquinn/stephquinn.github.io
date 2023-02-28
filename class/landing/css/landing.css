@@ -32,7 +32,8 @@ h3 {
 .col-md-4{
     font-family: 'Tilt Prism', cursive;
     font-size:3em;
-    color: #FF5400
+    color: #FF5400;
+    border:1px solid #FF5400;
 }
 
 .col-md-6 {
