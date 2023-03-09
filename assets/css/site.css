@@ -1,0 +1,23 @@
+body {
+    font-size:24pt;
+    background-color:#f0f1f0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'Special Elite', cursive;
+    font-size:2.5em;;
+    color: #515360;
+    text-align:center;
+}
+
+.img-fluid {
+    opacity:.6;
+}
+
+.btn-primary {
+    background-color:#c9a48b;
+    color:#515360;
+    outline-color:#c9a48b;
+
+}
