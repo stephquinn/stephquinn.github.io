@@ -1,6 +1,6 @@
 body {
-    font-size:18pt;
-    background-color:#f0f1f0;
+    font-size:16pt;
+    background-color:#f8f8ff;
     font-family: 'Noto Sans', sans-serif;
 }
 
@@ -9,6 +9,12 @@ h1 {
     font-size:3em;
     color: white;
     text-shadow:1px 1px black;
+}
+
+h2{
+    font-family: 'Special Elite', cursive;
+    font-size:1.5em;
+    color:#496228;
 }
 
 .banner {
@@ -61,4 +67,11 @@ nav {
 .banner h1 {
     top:35%;
 }
+
+ .top img{
+        margin-bottom:1em;
+    }
+
+
+
 
