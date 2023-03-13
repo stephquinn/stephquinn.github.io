@@ -1,26 +1,31 @@
 body {
-    font-size:16pt;
-    background-color:#f8f8ff;
+    font-size: 16pt;
+    background-color: #f8f8ff;
     font-family: 'Noto Sans', sans-serif;
+    color: #111111;
 }
 
 h1 {
     font-family: 'Special Elite', cursive;
-    font-size:3em;
-    color: white;
-    text-shadow:1px 1px black;
+    font-size: 3em;
+    color: #f8f8ff;
+    text-shadow: 1px 1px #e36497;
 }
 
-h2{
+h2 {
     font-family: 'Special Elite', cursive;
-    font-size:1.5em;
-    color:#496228;
+    font-size: 1.5em;
+    color: #496228;
+}
+
+header {
+    margin-bottom: 2em;
 }
 
 .banner {
-    position:relative;
+    position: relative;
     background: url(../images/cropped_shell.jpg) no-repeat center top;
-    height:300px;
+    height: 300px;
 }
 
 nav {
@@ -28,50 +33,62 @@ nav {
 }
 
 .btn-link {
-    background-color:#c9a48b;
+    background-color: #f88379;
     text-decoration: none;
     border: none;
-    color:black;
+    color: #111111;
 }
 
 .btn-link:hover {
-    background-color: #c9a48b;
-    color: #515360;
+    background-color: #f88379;
+    color: #f8f8ff;
 }
 
 .btn-link:active {
     background-color: #515360;
-    color:#f0f1f0;
+    color: #f8f8ff;
 }
 
 .home div,
 .banner h1 {
-    position:absolute;
-    text-align:center;
-    left:0;
-    right:0;
-    display:inline-block;
-
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    display: inline-block;
 
 }
 
 .home div {
-    top:40%;
+    top: 40%;
 }
 
 .home {
-    background: url(../images/anemones.jpg) center left;
-    
+    height: 100vh;
+    background: url(../images/anemones.jpg) no-repeat center top;
+    background-size: cover;
+
 }
 
 .banner h1 {
-    top:35%;
+    top: 35%;
 }
 
- .top img{
-        margin-bottom:1em;
-    }
+.top img {
+    margin-bottom: 1em;
+}
 
+.date {
+    color: black;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: .75em;
+}
 
+.link {
+    color: #496228;
+}
 
+.row a {
+    color: #111111;
 
+}
