@@ -29,7 +29,7 @@ header {
 }
 
 nav {
-    margin: 1em 0
+    margin: 1em 0;
 }
 
 .btn-link {
@@ -44,8 +44,8 @@ nav {
     color: #f8f8ff;
 }
 
-.btn-link:active {
-    background-color: #515360;
+.btn-link.active {
+    background-color: #f88379;
     color: #f8f8ff;
 }
 
@@ -78,6 +78,10 @@ nav {
     margin-bottom: 1em;
 }
 
+.last {
+    margin-bottom:3em;
+}
+
 .date {
     color: black;
     font-family: 'Noto Sans', sans-serif;
@@ -90,5 +94,5 @@ nav {
 
 .row a {
     color: #111111;
-
 }
+
