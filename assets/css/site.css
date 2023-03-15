@@ -74,7 +74,7 @@ nav {
     top: 35%;
 }
 
-.top img {
+.me img {
     margin-bottom: 1em;
 }
 
@@ -90,9 +90,17 @@ nav {
 
 .link {
     color: #496228;
+    text-decoration:none;
+}
+
+.link:hover {
+    color:#f88379
 }
 
 .row a {
     color: #111111;
 }
 
+hr {
+    color:#111111
+}
