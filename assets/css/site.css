@@ -1,55 +1,47 @@
 body {
-    font-size: 16pt;
+    font-size: 18px;
     background-color: #f8f8ff;
     font-family: 'Noto Sans', sans-serif;
     color: #111111;
+    margin-bottom:4em;
 }
-
 h1 {
     font-family: 'Special Elite', cursive;
-    font-size: 3em;
+    font-size: 4em;
     color: #f8f8ff;
-    text-shadow: 1px 1px #e36497;
+    text-shadow: 1px 1px #f88379;
 }
-
 h2 {
     font-family: 'Special Elite', cursive;
     font-size: 1.5em;
     color: #496228;
 }
-
 header {
     margin-bottom: 2em;
 }
-
 .banner {
     position: relative;
     background: url(../images/anemones.jpg) no-repeat center bottom;
     background-size:cover;
     height: 300px;
 }
-
 nav {
     margin: 1em 0;
 }
-
 .btn-link {
     background-color: #f88379;
     text-decoration: none;
     border: none;
     color: #111111;
 }
-
 .btn-link:hover {
     background-color: #f88379;
     color: #f8f8ff;
 }
-
 .btn-link.active {
     background-color: #f88379;
     color: #f8f8ff;
 }
-
 .home div,
 .banner h1 {
     position: absolute;
@@ -57,51 +49,45 @@ nav {
     left: 0;
     right: 0;
     display: inline-block;
-
 }
-
 .home div {
     top: 40%;
 }
-
 .home {
     height: 100vh;
     background: url(../images/anemones.jpg) no-repeat center top;
     background-size: cover;
-
 }
-
 .banner h1 {
     top: 35%;
 }
-
 .me img {
     margin-bottom: 1em;
 }
-
 .last {
     margin-bottom:3em;
 }
-
 .date {
     color: black;
     font-family: 'Noto Sans', sans-serif;
     font-size: .75em;
 }
-
 .link {
     color: #496228;
     text-decoration:none;
 }
-
 .link:hover {
     color:#f88379
 }
-
 .row a {
     color: #111111;
 }
-
 hr {
     color:#111111
+}
+@media(max-width:450ppx){
+    .home nav a{
+        font-size:.88em;
+        margin:0;
+    }
 }
