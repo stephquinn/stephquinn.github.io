@@ -79,9 +79,15 @@ nav {
 .link:hover {
     color:#f88379
 }
-@media(max-width:450ppx){
+@media(max-width:450px){
     .home nav a{
         font-size:.88em;
         margin:0;
+    }
+    .btn-link{
+        font-size:.75em;
+    }
+    .mobile-hide{
+        display:none;
     }
 }
