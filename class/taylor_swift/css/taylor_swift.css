@@ -27,3 +27,40 @@ h3{
 h4{
     font-size:1.25em;
 }
+
+.header h1,
+.header p,
+.header a{
+    color:#fafafa
+}
+
+.header p{
+    font-size:.65em;
+    letter-spacing:1.5px;
+    text-transform:uppercase;
+}
+
+.row{
+    padding:9em 0;
+}
+
+.header{
+    background-color:#0F171A;
+}
+
+.intro{
+    padding:5em 0; 
+}
+
+ul{
+    margin:0 0 0 2em;
+}
+
+ul a{
+    color:#0F171A;
+    text-decoration-color:#b2322d;
+}
+
+
+
+
