@@ -6,9 +6,10 @@ body{
 
 h1,
 h2,
-h3,
-h4{
+h3{
     font-family:'Cabin Condensed', sans-serif;
+    font-weight:700;
+
 }
 
 h1{
@@ -26,6 +27,8 @@ h3{
 
 h4{
     font-size:1.25em;
+    color:#b2322d;
+    text-align:center;
 }
 
 .header h1,
@@ -60,6 +63,20 @@ ul a{
     color:#0F171A;
     text-decoration-color:#b2322d;
 }
+
+ul a:hover{
+    color:#b2322d;
+}
+
+.scroll{
+    text-align:center;
+}
+
+iframe{
+    margin: 0 0 2em 0;
+}
+
+
 
 
 
