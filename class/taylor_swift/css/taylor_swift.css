@@ -6,10 +6,15 @@ body{
 
 h1,
 h2,
-h3{
+h3,
+h4{
     font-family:'Cabin Condensed', sans-serif;
     font-weight:700;
+}
 
+h3,
+h4{
+    font-size:1.25em;
 }
 
 h1{
@@ -21,14 +26,17 @@ h2{
 }
 
 h3{
-    font-size:1.25em;
     text-transform: uppercase;
 }
 
 h4{
-    font-size:1.25em;
     color:#b2322d;
     text-align:center;
+}
+
+.table{
+    text-align:center;
+    font-family:'Open Sans', sans-serif;
 }
 
 .header h1,
@@ -43,7 +51,7 @@ h4{
     text-transform:uppercase;
 }
 
-.row{
+.banner {
     padding:9em 0;
 }
 
@@ -59,12 +67,12 @@ ul{
     margin:0 0 0 2em;
 }
 
-ul a{
+a{
     color:#0F171A;
     text-decoration-color:#b2322d;
 }
 
-ul a:hover{
+a:hover{
     color:#b2322d;
 }
 
@@ -75,6 +83,37 @@ ul a:hover{
 iframe{
     margin: 0 0 2em 0;
 }
+
+.title{
+    padding:3em 0 1.5em 0;
+}
+
+.map{
+    margin:0 0 3em 0;
+}
+
+.timeline{
+    border-left: 3px solid #b2322d;
+    font-family:'Cabin Condensed', sans-serif;
+}
+
+.timeline p,
+.timeline b{
+    font-size:.95em;
+}
+
+.timeline b{
+    background-color:#b2322d;
+    color:#fafafa;
+    padding: .01em 1.1em .01em .6em;
+    letter-spacing: 1px;
+}
+
+.timeline a{
+    color:#0F171A;
+    text-decoration-color:#0F171A;
+}
+
 
 
 
