@@ -78,6 +78,7 @@ a:hover{
 
 .scroll{
     text-align:center;
+    font-family: 'Cabin Condensed', sans-serif;
 }
 
 iframe{
@@ -114,7 +115,22 @@ iframe{
     text-decoration-color:#0F171A;
 }
 
+.popularity,
+.streams{
+    margin:3em 0 3em;
+}
 
+.popularity h4{
+    margin: 3em 0 2em 0;
+}
+
+.streams h4{
+    margin-bottom:2em;
+}
+
+footer{
+    font-size:.65em;
+}
 
 
 
