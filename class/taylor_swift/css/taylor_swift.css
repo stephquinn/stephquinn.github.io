@@ -19,6 +19,7 @@ h4{
 
 h1{
     font-size:3em;
+    float:left;
 }
 
 h2{
@@ -42,7 +43,8 @@ h4{
 .header h1,
 .header p,
 .header a{
-    color:#fafafa
+    color:#fafafa;
+    text-decoration-color:#fafafa;
 }
 
 .header p{
@@ -130,6 +132,35 @@ iframe{
 
 footer{
     font-size:.65em;
+}
+
+@media (max-width:768px){
+    h1,
+    .header p{
+        text-align:center;
+    }
+    .banner img{
+        padding:3em 1em 3em 1em;
+    }
+    .banner p{
+        margin:0em;
+    }
+    h1{
+        margin-bottom:1.5em;
+    }
+    .intro{
+        padding-top:4em;
+    }
+    main{
+        padding:0 1em 0 1em;
+    }
+}
+
+@media (max-width:450px){
+    h4{
+        padding-bottom:.75em;
+    }
+
 }
 
 
