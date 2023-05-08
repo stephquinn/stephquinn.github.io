@@ -1,15 +1,33 @@
 body {
-    background-color: #819C8D;
+    background-color: #DBE3DF;
     font-family:'Comme', sans-serif;
     font-size:16px;
 }
 
 h1 {
-    font-family:'Playfair Display', serif;
+    font-family:'Foldit', cursive;
     color: #112934;
+    font-size:9em;
+    text-align:center;
+    text-transform:uppercase;
+}
+
+h2, 
+h3 {
+    font-family:'Roboto Condensed', sans-serif;
+    color: #112934;
+    text-align:center;
 }
 
 h2 {
-    font-family:'Roboto Condensed', sans-serif;
-    color: #112934;
+    font-size:2.25em;
+    padding-bottom: 1em;
+}
+
+h3 {
+    font-size:1.25em;
+}
+
+.map {
+    padding-bottom:1em;
 }
