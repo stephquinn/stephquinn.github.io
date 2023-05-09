@@ -6,8 +6,8 @@ body {
 
 h1 {
     font-family:'Foldit', cursive;
-    color: #8D5109;
-    font-size:9em;
+    color: #black;
+    font-size:10em;
     text-align:center;
     text-transform:uppercase;
 }
@@ -15,19 +15,22 @@ h1 {
 h2, 
 h3 {
     font-family:'Roboto Condensed', sans-serif;
-    color: #112934;
+    color: #003262;
     text-align:center;
+    padding-bottom:1em;
 }
 
 h2 {
     font-size:2.25em;
-    padding-bottom: 1em;
 }
 
 h3 {
     font-size:1.25em;
 }
 
-.map {
+.map,
+.juxtapose {
     padding-bottom:1em;
 }
+
+
