@@ -32,10 +32,15 @@ h3 {
     max-width:1000px;
 }
 
+.credit {
+    font-size:.75em;
+}
+
 .map,
 .juxtapose {
-    padding-bottom:1.5em;
+    padding:1.5em 0em;
     max-width:800px;
+    text-align:center;
 }
 
 .juxtapose {
