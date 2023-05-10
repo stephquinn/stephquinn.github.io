@@ -28,16 +28,14 @@ h3 {
     font-size:1.25em;
 }
 
-img {
-    float:right;
-    max-width:550px;
+.img-fluid {
+    max-width:1000px;
 }
 
 .map,
 .juxtapose {
-    padding-bottom:1em;
+    padding-bottom:1.5em;
     max-width:800px;
-    
 }
 
 .juxtapose {
