@@ -28,29 +28,20 @@ h3 {
     font-size:1.25em;
 }
 
-.img-fluid {
-    max-width:1000px;
-}
+
 
 .credit {
     font-size:.75em;
 }
 
 .map,
-.juxtapose {
+.juxtapose,
+.allegany,
+.baltimore {
     padding:1.5em 0em;
     max-width:800px;
-    text-align:center;
 }
 
-.juxtapose {
-    max-width:800px;
-}
-
-.baltimore,
-.allegany {
-    max-width=600px;
-}
 
 @media (max-width:768px){
     h1 {
