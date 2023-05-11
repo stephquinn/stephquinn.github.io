@@ -1,12 +1,13 @@
 body {
     background-color: #DBE3DF;
-    font-family:'Comme', sans-serif;
+    font-family:'Roboto', sans-serif;
     font-size:16px;
+    color:#1f2122
 }
 
 h1 {
     font-family:'Foldit', cursive;
-    color: black;
+    color: #1f2122;
     font-size:9em;
     text-align:center;
     text-transform:uppercase;
@@ -43,7 +44,7 @@ h3 {
 }
 
 .copyright {
-    color: black;
+    color: #1f2122;
 }
 
 
