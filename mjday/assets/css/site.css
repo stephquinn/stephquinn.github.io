@@ -1,0 +1,91 @@
+body {
+    font-size: 10px;
+    background-color: #f5f5f3;
+    margin-bottom:4em;
+}
+
+cards {
+    margin:4em;
+}
+
+h1 {
+    font-family: 'DM Sans', sans-serif;
+    font-size:4em;
+    color: #621BEE;
+    text-transform: uppercase;
+}
+
+.date,
+h2 {
+    font-family: 'Courier Prime';
+    font-size:1.7em;
+    color: #1c1c1d;
+    padding-top: 1em;
+}
+
+h3 {
+    font-family: 'DM Sans', sans-serif;
+    font-size:2.7em;
+    color: #1c1c1d;
+    text-transform: uppercase;
+}
+
+.link,
+.card-title {
+    font-family: 'DM Sans', sans-serif;
+    font-size:2.25em;
+    color: #1c1c1d;
+    text-decoration:none;
+}
+
+.btn-link {
+    font-family: 'DM Sans', sans-serif;
+    font-size:1.8em;
+    color: #1c1c1d;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.btn-link:hover,
+.link:hover,
+.card-title:hover {
+    color:#621BEE;
+}
+
+header {
+    margin-top: 1em;
+}
+
+.vertical-center {
+    padding:3em;
+    min-height: 100vh;
+    display: flex;
+    align-items:center;
+}
+
+.headshot {
+    width: 400px;
+}
+
+img {
+    border: 1px solid #1c1c1d;
+}
+
+footer {
+    padding-top: 3em;
+}
+
+.embed {
+    width:100%;
+    height:100%;
+}
+
+.btn-link.active {
+    color:1c1c1d;
+}
+
+@media (max-width:758px) {
+    header{
+        text-align:center;
+    }
+}
